@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>soda green</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Roboto+Condensed:ital,wght@1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="img/logo.png" alt="sodagreen band" />
+          <h1>SodaGreen</h1>
+          <button class="btnTheme" id="themeToggle">Theme</button>
+        </div>
+        <div id="menu">
+          <button id="menu-btn">MENU</button>
+          <ul class="menu-ul">
+            <li><a href="#about">About</a></li>
+            <li><a href="#albums">Albums</a></li>
+            <li><a href="#store">Store</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="ad-container">
+        <img
+          src="img/1026.jpeg"
+          alt="sodagreen poster "
+          class="ad-image ad-image-1"
+        />
+        <img
+          src="img/900.jpeg"
+          alt="sodagreen concert"
+          class="ad-image ad-image-2"
+        />
+        <img
+          src="img/600.jpeg"
+          alt="sodagreen Qingfeng"
+          class="ad-image ad-image-3"
+        />
+      </div>
+
+      <section id="about">
+        <h2>-----Introduction-----</h2>
+        <div class="about-container">
+          <p class="aboutP">
+            In May 2004, Sodagreen introduced their first single at the School
+            Rock event at National Chengchi University in Taipei, marking the
+            start of their journey in Mandarin pop music. Fast forward to
+            November 3, 2007, they wowed audiences at the Taipei Arena with
+            their "Unparalleled Beauty" concert, making history as the first
+            indie band to headline at this renowned venue. Sodagreen's unique
+            indie sound not only sets them apart but also secures them a special
+            place in the music world.
+          </p>
+          <img src="img/1280.webp" alt="sodagreen band introduce" />
+        </div>
+      </section>
+
+      <section id="albums">
+        <div>
+          <h2>--------Albums--------</h2>
+          <section id="spring">
+            <div class="contentInline">
+              <img src="img/spring.png" alt="sodagreen spring album" />
+              <div class="allAlbums">
+                <h3>Spring:Sunlight</h3>
+                <p>
+                  "Spring:Sunlight" is an album released by Sodagreen in 2009.
+                  Most of the lyrics and music were composed solely by Wu
+                  Qingfeng. In 2010, Sodagreen was nominated for the Best
+                  Arrangement and Best Album Producer awards at the 21st Golden
+                  Melody Awards for this album, and also won the Best Music
+                  Video award.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="summer">
+            <div class="contentInline">
+              <img src="img/summer.png" alt="sodagreen summer album" />
+              <div class="allAlbums">
+                <h3>Summer:Mania</h3>
+                <p>
+                  'Summer:Mania' is the second album in Sodagreen's "Vivaldi
+                  Project", released on September 11, 2009. The name of this
+                  project is derived from Vivaldi's violin concertos 'The Four
+                  Seasons'.On January 27, 2010, the album won the Supreme Pop
+                  Music Awards for Song of the Year and Best Band.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="fall">
+            <div class="contentInline">
+              <img src="img/fall.png" alt="sodagreen fall album" />
+              <div class="allAlbums">
+                <h3>Autumn:Stories</h3>
+                <p>
+                  'Autumn: Stories' is the third album in Sodagreen's "Vivaldi
+                  Project", released in 2013. The lyrics and music were mostly
+                  written and composed by Wu Qingfeng alone. In 2013, for this
+                  album, Sodagreen won the Most Popular Group of the Year award
+                  at the 7th CRHK Music Awards and the Most Popular Album on
+                  iTunes Store in 2013.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="winter">
+            <div class="contentInline">
+              <img src="img/winter.png" alt="sodagreen winter album" />
+              <div class="allAlbums">
+                <h3>Winter:Encore</h3>
+                <p>
+                  'Winter Encore' is the final album in "Vivaldi Project",
+                  released on November 4, 2015. The album won Best Mandarin
+                  Album, Best Band, and Best Album Producer at the 27th Golden
+                  Melody Awards. The song "He Raised His Right Hand to Name" won
+                  Best Arranger and Best Lyricist at the 27th Golden Melody
+                  Awards respectively.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <ul id="albums-control">
+          <li class="btnFlex">
+            <button id="b0" class="btn btn-albums currentAlbum">spring</button>
+          </li>
+          <li class="btnFlex">
+            <button id="b1" class="btn btn-albums">summer</button>
+          </li>
+          <li class="btnFlex">
+            <button id="b2" class="btn btn-albums">Autumn</button>
+          </li>
+          <li class="btnFlex">
+            <button id="b3" class="btn btn-albums">winter</button>
+          </li>
+        </ul>
+      </section>
+
+      <section id="store">
+        <h2>--------Store--------</h2>
+        <div class="store-container">
+          <div class="store-left">
+            <div id="p0">
+              <img src="img/bird.jpeg" />
+              <h4>Brooch</h4>
+              <p>Hummingbird Brooch</p>
+              <span class="price">$12.00</span>
+              <div class="div-checkbox">
+                <input type="checkbox" class="checkboxP" id="checkbox0" />
+                <span class="addCart">Add to Cart</span>
+              </div>
+            </div>
+            <div id="p1">
+              <img src="img/poster1.png" />
+              <h4>Poster1</h4>
+              <p>Memorial Poster</p>
+              <span class="price">$10.00</span>
+              <div class="div-checkbox">
+                <input type="checkbox" class="checkboxP" id="checkbox1" />
+                <span class="addCart">Add to Cart</span>
+              </div>
+            </div>
+            <div id="p2">
+              <img src="img/poster2.jpeg" />
+              <h4>Poster2</h4>
+              <p>Band poster</p>
+              <span class="price">$10.00</span>
+              <div class="div-checkbox">
+                <input type="checkbox" class="checkboxP" id="checkbox2" />
+                <span class="addCart">Add to Cart</span>
+              </div>
+            </div>
+            <div id="p3">
+              <img src="img/clothes2.jpeg" />
+              <h4>T-shirt</h4>
+              <p>Anniversary T-shirt</p>
+              <span class="price">$16.00</span>
+              <div class="div-checkbox">
+                <input type="checkbox" class="checkboxP" id="checkbox3" />
+                <span class="addCart">Add to Cart</span>
+              </div>
+            </div>
+            <div id="p4">
+              <img src="img/poster3.jpeg" />
+              <h4>Poster3</h4>
+              <p>Collectible Poster</p>
+              <span class="price">$12.00</span>
+              <div class="div-checkbox">
+                <input type="checkbox" class="checkboxP" id="checkbox4" />
+                <span class="addCart">Add to Cart</span>
+              </div>
+            </div>
+            <div id="p5">
+              <img src="img/jiumi.avif" />
+              <h4>KeyChain</h4>
+              <p>Band Key Chain</p>
+              <span class="price">$8.00</span>
+              <div class="div-checkbox">
+                <input type="checkbox" class="checkboxP" id="checkbox5" />
+                <span class="addCart">Add to Cart</span>
+              </div>
+            </div>
+          </div>
+          <div class="store-right">
+            <h3>
+              <img src="img/cart.png" width="30px" height="30px" /><span
+                >Cart</span
+              >
+            </h3>
+            <hr />
+            <ul class="items"></ul>
+            <div class="summary">
+              <p>Subtotal:<span class="subtotal">$0.00</span></p>
+              <p>Tax:<span class="tax">10%</span></p>
+              <p>Shipping:<span class="shipping">$5.00</span></p>
+              <hr />
+              <p>Total:<span class="total">$0.00</span></p>
+            </div>
+            <button id="payButton" class="btn btn-checkout">checkout</button>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>-----Contact Us-----</h2>
+        <form class="contact-form" id="contactF" method="post" action="#">
+          <label for="fullName"
+            >Full Name:<span class="required">*</span></label
+          >
+          <input
+            type="text"
+            name="fullName"
+            id="fullName"
+            placeholder="Enter your full name"
+          />
+          <span id="nameError" class="hidden colorError"
+            >Please enter the correct name format</span
+          >
+          <fieldset>
+            <legend>
+              Preferred Method Of Contact <span class="required">*</span>
+            </legend>
+            <label for="phonePref" class="radioPref"
+              ><input
+                type="radio"
+                name="contactPref"
+                id="phonePref"
+                value="phone"
+                checked
+              />Phone</label
+            >
+            <label for="emailPref" class="radioPref"
+              ><input
+                type="radio"
+                name="contactPref"
+                id="emailPref"
+                value="email"
+              />Email</label
+            >
+          </fieldset>
+          <label for="phone"
+            >Phone:<span class="required" id="pReq">*</span></label
+          >
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter your phone number"
+            autocomplete="tel"
+          />
+          <span id="phoneError" class="hidden colorError"
+            >Please enter a ten-digit number</span
+          >
+
+          <label for="email"
+            >Email:<span class="required" id="eReq">*</span></label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            autocomplete="email"
+          />
+          <span id="emailError" class="hidden colorError"
+            >Please enter the correct email format</span
+          >
+
+          <label for="msg">Your Message:<span class="required">*</span></label>
+          <textarea id="msg" name="msg" rows="12" cols="30"></textarea>
+          <span id="CommentsError" class="hidden colorError"
+            >Please provide a comment</span
+          >
+
+          <input type="submit" name="mySubmit" id="mySubmit" class="btn" />
+        </form>
+      </section>
+      <footer class="footer">
+        <div>
+          <img src="img/2515843_black and white_dark grey_instagram_icon.png" />
+          <img
+            src="img/5282541_fb_social media_facebook_facebook logo_social network_icon.png"
+          />
+          <img src="img/5282551_tweet_twitter_twitter logo_icon.png" />
+        </div>
+        Copyright &copy; GIT519 - Soda Green
+      </footer>
+    </div>
+  </body>
+</html>
